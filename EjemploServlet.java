@@ -27,6 +27,9 @@ public class EjemploServlet extends HttpServlet {
 		out.println(" Hola tu nombre es " + nombre + ". Saludos!!!");
 	}
 
+	/* La diferencia entre Post y Get es que: en get muestra la ruta completa y exacta de la página, 
+	en cambio con post la ruta no le aparece al usuario */
+
 	protected void doPost(HttpServletRequest request,
 			HttpServletResponse response) throws ServletException, IOException {
 		// POST
